@@ -1,0 +1,31 @@
+header{
+    background-image: url(../assets/icons/Background_Intro.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 750px;
+        text-align: center;
+    }
+
+    .profile{
+        max-width: 700px;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .profile-pic{
+        width: 96px;
+        height: 96px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 20px;
+        border: 2px solid var(--red);
+    }
+
+}
+
